@@ -1,0 +1,123 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.site-container {
+  min-height: 100%;
+  padding: 25% 5%;
+}
+
+h1 {
+  color: #502050;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+h4 {
+  color: #502050;
+  margin-top: 1em;
+}
+
+p {
+  color: #937b92;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+section {
+  margin-bottom: 15%;
+}
+
+#title-section {
+  text-align: center;
+}
+
+.rating-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #f7f2f7;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 1rem;
+}
+
+.star-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+
+.testimonial-container {
+  background-color: #502050;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+}
+
+.name {
+  color: #FFF;
+  margin: 0.5em 0;
+}
+
+.verified {
+  color: #ee68a4;
+  font-weight: 100;
+  margin: 0;
+}
+
+.testimonial-text {
+  margin-top: 2rem;
+}
+
+.testimonial-text p {
+  color: #FFF;
+  font-weight: 400;
+}
+/*# sourceMappingURL=styles.css.map */

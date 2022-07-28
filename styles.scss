@@ -1,0 +1,117 @@
+//VARIRABLES
+$dkMagenta: hsl(300, 43%, 22%);
+$ltPink: hsl(333, 80%, 67%);
+$dkGray: hsl(303, 10%, 53%);
+$ltGray: hsl(300, 24%, 96%);
+
+//SETUP
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body{ 
+    height: 100%;
+    width: 100%;
+}
+
+body{ 
+    font-family: "League Spartan", sans-serif;
+    font-size: 15px;
+}
+
+.site-container{ 
+    min-height: 100%;
+    padding: 25% 5%;
+}
+
+//TEXT & REUSABLES
+h1{ 
+    color:$dkMagenta;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+h4{ 
+    color: $dkMagenta;
+    margin-top: 1em;
+}
+
+p{
+    color:$dkGray;
+    line-height: 1.5;
+    font-size:18px;
+}
+
+section{ 
+    margin-bottom: 15%;
+}
+
+//TITLE SECTION
+#title-section{ 
+    text-align: center;
+}
+
+
+//RATING SECTION
+.rating-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-color: $ltGray;
+    border-radius: 10px;
+    padding: 1em;
+    margin-bottom: 1rem;
+}
+
+.star-container{ 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+//TESTIMONIAL SECTION 
+.testimonial-container{ 
+    background-color: $dkMagenta;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: baseline;
+}
+
+
+.profile-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+}
+
+.name{
+     color:#FFF;
+     margin:0.5em 0;
+}
+
+.verified{ 
+    color:hsl(333, 80%, 67%);
+    font-weight: 100;
+    margin: 0;
+}
+
+.testimonial-text{
+    margin-top: 2rem;
+    
+    p{
+        color:#FFF;
+        font-weight: 400;
+    }
+}
+
