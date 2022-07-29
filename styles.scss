@@ -21,8 +21,13 @@ body{
 }
 
 .site-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     min-height: 100%;
-    padding: 25% 5%;
+    padding: 10vh 5%;
+    width:100%;
 }
 
 //TEXT & REUSABLES
@@ -45,14 +50,17 @@ p{
 }
 
 section{ 
-    margin-bottom: 15%;
+    margin-bottom: 7.5vh;
+    max-width: 500px;
+    width: 100%;
 }
 
+
+//++++++MOBILE DESIGN+++++++++
 //TITLE SECTION
 #title-section{ 
     text-align: center;
 }
-
 
 //RATING SECTION
 .rating-container{ 
@@ -115,3 +123,48 @@ section{
     }
 }
 
+
+//++++++++DESKTOP DESIGN+++++++
+@media screen and (min-width:1024px) {
+    
+    //SETUP
+    .site-container{
+        background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
+         url(images/bg-pattern-bottom-desktop.svg) bottom right no-repeat;
+        overflow: hidden;
+        max-width: 2000px;
+    }
+    
+    .desktop-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    //TEXT AND REUSABLES
+    section{
+        margin:0;
+        max-width: unset;
+    }
+
+    //TITLE SECTION
+    #title-section{
+        text-align: left;
+        flex:1;
+    }
+
+    //RATING SECTION
+    #rating-section{
+        width: 60%;
+    }
+
+    //TESTIMONIAL SECTION
+    #testimonial-section{
+        display: flex;
+    }
+
+    .testimonial-container{
+        margin: 0 1rem 0 0;
+    }
+
+    
+}
